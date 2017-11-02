@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Arial', 'Heletica Neue', Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 body {
@@ -34,33 +36,31 @@ footer {
 .container {
 		display: flex;
 		justify-content: center;
-		height: 80px;
 		background-color: #ebebeb;
 		color: #777;
 		margin: 10px;
-		width: 495px;
 }
 
 #aside {
 	display: flex;
 	flex: 1;
 	justify-content: center;
-	height: 80px;
 	background-color: #ebebeb;
 	color: #777;
 	margin: 10px;
-	width: 495px;
 }
 
 .container2 {
 		display: flex;
 		flex: 1;
 		justify-content: center;
-		height: 80px;
 		background-color: #ebebeb;
 		color: #777;
 		margin: 10px;
-		width: 495px;
 }
 
+#section {
+			width: 495px;
+			padding: 10px;
+}
 
